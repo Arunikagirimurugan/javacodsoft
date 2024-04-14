@@ -3,7 +3,7 @@ public class gradeCalculator{
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
         System.out.println("Students Grade Calculator");
-        System.out.println("Enter your number of subjects:");
+        System.out.print("Enter your number of subjects:");
         int subjects=scanner.nextInt();
         int totalmarks=0;
         int[] marks=new int[subjects];
